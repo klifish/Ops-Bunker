@@ -2,7 +2,7 @@ name: Wake Up OpenClaw
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Run every 15 minutes
+    - cron: '0 * * * *'  # Run every hour
   workflow_dispatch:      # Allow manual trigger
 
 jobs:

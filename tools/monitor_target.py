@@ -23,8 +23,10 @@ def monitor(domain):
             old_subs = sorted([line.strip() for line in f if line.strip()])
     
     print(f"[*] Running subfinder on {domain}...")
-    # Run subfinder (silent mode)
-    new_subs = run_command(f"subfinder -d {domain} -silent")
+    # Run subfinder (silent mode) -> httpx (filter garbage)
+    # Evolution: Added httpx filtering to ignore 301/404 noise immediately
+    cmd = f"subfinder -d {domain} -silent | httpx -mc 200,403,401 -silent"
+    new_subs = run_command(cmd)
     new_subs = sorted(list(set(new_subs))) # Dedup and sort
     
     # Save new state immediately

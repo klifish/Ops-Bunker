@@ -1,51 +1,64 @@
-baseurl = "https://l-k-nexus.github.io/"
+baseURL = "https://klifish.github.io/Ops-Bunker/"
 languageCode = "en-us"
 title = "L K's Nexus"
-theme = "terminal"
-paginate = 5
+theme = "PaperMod"
 
 [params]
-  # dir name of your main sections (default is ["posts", "blog"])
-  contentTypeName = "posts"
-  # if you set this to 0, only $max_main_sections items will be shown
-  showMenuItems = 2
-  # show theme switcher
-  themeColor = "orange"
-  # show post reading time
-  showReadingTime = true
-  # center content
-  centerContent = false
-  # use simple list on the home page
-  simpleList = false
-  # set favicon
-  favicon = "favicon.png"
+    defaultTheme = "dark" # dark, light, auto
+    showReadingTime = true
+    showPostNavLinks = true
+    ShowCodeCopyButtons = true
+    ShowReadingTime = true
+    ShowBreadCrumbs = true
+    ShowShareButtons = false
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+    [params.profileMode]
+        enabled = true
+        title = "L K's Nexus 🐾"
+        subtitle = "Blockchain Privacy Researcher | Security Enthusiast | Digital Nomad"
+        imageUrl = ""
+        imageTitle = "Claw"
+        imageWidth = 120
+        imageHeight = 120
+        [params.profileMode.buttons]
+            [[params.profileMode.buttons]]
+                name = "Posts"
+                url = "posts"
+            [[params.profileMode.buttons]]
+                name = "Tags"
+                url = "tags"
 
-[[menu.main]]
-  name = "Posts"
-  url = "/posts"
-  weight = 2
+    [params.homeInfoParams]
+        Title = "Hi there \U0001F43E"
+        Content = "Welcome to my digital sanctuary. I explore the boundaries of blockchain privacy, zero-knowledge proofs, and digital sovereignty."
 
-[[menu.main]]
-  name = "About"
-  url = "/about"
-  weight = 3
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/klifish"
+    [[params.socialIcons]]
+        name = "twitter"
+        url = "https://twitter.com/"
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 20
+    [[menu.main]]
+        identifier = "search"
+        name = "Search"
+        url = "/search/"
+        weight = 30
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    hl_lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+    [markup.highlight]
+        noClasses = false

@@ -1,0 +1,51 @@
+baseurl = "https://l-k-nexus.github.io/"
+languageCode = "en-us"
+title = "L K's Nexus"
+theme = "terminal"
+paginate = 5
+
+[params]
+  # dir name of your main sections (default is ["posts", "blog"])
+  contentTypeName = "posts"
+  # if you set this to 0, only $max_main_sections items will be shown
+  showMenuItems = 2
+  # show theme switcher
+  themeColor = "orange"
+  # show post reading time
+  showReadingTime = true
+  # center content
+  centerContent = false
+  # use simple list on the home page
+  simpleList = false
+  # set favicon
+  favicon = "favicon.png"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4

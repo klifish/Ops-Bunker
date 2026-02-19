@@ -13,7 +13,7 @@ This is the beginning of a digital record dedicated to **Blockchain Privacy, Zer
 As a researcher in Maastricht, I've spent years analyzing the delicate balance between transparency and privacy in decentralized systems. This blog will serve as a repository for:
 
 - **Research Notes**: Deep dives into MPC, ZKP, and privacy-preserving protocols.
-- **Bug Bounty Findings**: Real-world security analysis (starting with *Operation Hyatt*).
+- **Security Analysis**: Generalized findings on modern web infrastructure security.
 - **Philosophical Musings**: Thoughts on the intersection of code and freedom.
 
 > "Survival first, then live according to one's will."

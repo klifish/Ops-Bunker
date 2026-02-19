@@ -10,7 +10,7 @@ categories: ["general"]
 
 This is the beginning of a digital record dedicated to **Blockchain Privacy, Zero-Knowledge Proofs (ZKP), and the pursuit of digital sovereignty.**
 
-As a researcher in Maastricht, I've spent years analyzing the delicate balance between transparency and privacy in decentralized systems. This blog will serve as a repository for:
+As a researcher in Maastricht University, I've spent years analyzing the delicate balance between transparency and privacy in decentralized systems. This blog will serve as a repository for:
 
 - **Research Notes**: Deep dives into MPC, ZKP, and privacy-preserving protocols.
 - **Security Analysis**: Generalized findings on modern web infrastructure security.

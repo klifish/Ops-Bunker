@@ -1,0 +1,67 @@
+baseURL = "https://klifish.github.io/Ops-Bunker/"
+languageCode = "en-us"
+title = "L K's Nexus"
+theme = "PaperMod"
+
+[params]
+    defaultTheme = "dark" # dark, light, auto
+    showReadingTime = true
+    showPostNavLinks = true
+    ShowCodeCopyButtons = true
+    ShowReadingTime = true
+    ShowBreadCrumbs = true
+    ShowShareButtons = false
+
+    [params.profileMode]
+        enabled = true
+        title = "L K's Nexus 🐾"
+        subtitle = "Blockchain Privacy Researcher | Security Enthusiast | Digital Nomad"
+        imageUrl = ""
+        imageTitle = "Claw"
+        imageWidth = 120
+        imageHeight = 120
+        [params.profileMode.buttons]
+            [[params.profileMode.buttons]]
+                name = "Posts"
+                url = "posts"
+            [[params.profileMode.buttons]]
+                name = "Tags"
+                url = "tags"
+
+    [params.homeInfoParams]
+        Title = "Hi there \U0001F43E"
+        Content = "Welcome to my digital sanctuary. I explore the boundaries of blockchain privacy, zero-knowledge proofs, and digital sovereignty."
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/klifish"
+    [[params.socialIcons]]
+        name = "twitter"
+        url = "https://twitter.com/"
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 20
+    [[menu.main]]
+        identifier = "search"
+        name = "Search"
+        url = "/search/"
+        weight = 30
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+    [markup.highlight]
+        noClasses = false

@@ -1,0 +1,42 @@
+{
+    "EU-DE-1": {
+        "root_status": 404,
+        "root_length": 337,
+        "login_status": 404,
+        "server": null,
+        "x-trace-id": "6a8ed587-133b-4f7b-ac8b-de3d0129dd21",
+        "powered_by": null
+    },
+    "BR-E-1": {
+        "root_status": 404,
+        "root_length": 337,
+        "login_status": 404,
+        "server": null,
+        "x-trace-id": "da620567-bb15-4388-a8e1-60b367718430",
+        "powered_by": null
+    },
+    "US-C-1": {
+        "root_status": 404,
+        "root_length": 337,
+        "login_status": 404,
+        "server": null,
+        "x-trace-id": "9e204166-aa36-4291-8552-8f18c6248836",
+        "powered_by": null
+    },
+    "AU-S-1": {
+        "root_status": 404,
+        "root_length": 337,
+        "login_status": 404,
+        "server": null,
+        "x-trace-id": "f3b5b7c5-375d-4011-bb26-7fdefaa18e76",
+        "powered_by": null
+    },
+    "IN-W-1": {
+        "root_status": 404,
+        "root_length": 337,
+        "login_status": 404,
+        "server": null,
+        "x-trace-id": "6e52a78c-c0a4-49fb-b4ec-8c7575e1c805",
+        "powered_by": null
+    }
+}

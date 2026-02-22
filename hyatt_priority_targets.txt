@@ -1,0 +1,5 @@
+world.hyatt.com
+www.hyatt.com
+meetings.hyatt.com
+roomconnector.hyatt.com
+m.hyatt.com

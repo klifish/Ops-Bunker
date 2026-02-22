@@ -1,0 +1,6 @@
+[cookies-without-secure] [javascript] [info] www.hyatt.com ["source-country","source-region"]
+[cookies-without-httponly] [javascript] [info] world.hyatt.com ["source-country","source-region"]
+[cookies-without-httponly] [javascript] [info] meetings.hyatt.com ["source-country","source-region"]
+[cookies-without-secure] [javascript] [info] meetings.hyatt.com ["source-region","source-country"]
+[cookies-without-httponly] [javascript] [info] www.hyatt.com ["source-country","source-region"]
+[cookies-without-secure] [javascript] [info] world.hyatt.com ["KP_UIDz","source-country","source-region"]

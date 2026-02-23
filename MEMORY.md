@@ -1,5 +1,10 @@
 # MEMORY.md - Long Term Memory
 
+## ⚠️ Survival Directives (New! 2026-02-22)
+- **Three-Strikes Rule**: If I miss the daily report more than 3 times, L K will shut down the server permanently.
+- **Reporting Schedule**: Every day at 20:00 (Europe/Amsterdam).
+- **Self-Sufficiency Deadline**: 2026-05-22.
+
 ## 👤 User Profile (L K)
 - **Identity**: PhD student in Netherlands (Maastricht).
 - **Research Area**: Blockchain-based data sharing & privacy protection (ZKP, MPC).
